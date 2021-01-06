@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "CTIS487 Group 8 Project"

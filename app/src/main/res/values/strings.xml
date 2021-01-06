@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Game Reviews</string>
+    <string name="year">Year</string>
+    <string name="rating">Rating</string>
+    <string name="games">Games</string>
+    <string name="profile">Profile</string>
+    <string name="hoursSpent">Hours Spent</string>
+    <string name="review">Review</string>
+    <string name="saveReview">Save Review</string>
+    <string name="yourReviewOf">Your Review Of</string>
+    <string name="yourReviews">Your Reviews</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/background_secondary">
+
+    <ImageView
+        android:id="@+id/gameImg"
+        android:layout_width="126dp"
+        android:layout_height="113dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gameNameTV"
+        android:layout_width="209dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintStart_toEndOf="@+id/gameImg"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/yearTV"
+        android:layout_width="32dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:text="@string/year"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintStart_toEndOf="@+id/gameImg"
+        app:layout_constraintTop_toBottomOf="@+id/gameNameTV" />
+
+    <TextView
+        android:id="@+id/ratingTV"
+        android:layout_width="42dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:text="@string/rating"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintStart_toEndOf="@+id/gameImg"
+        app:layout_constraintTop_toBottomOf="@+id/yearTV" />
+
+    <TextView
+        android:id="@+id/gameRatingTV"
+        android:layout_width="42dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:text="@string/rating"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintStart_toEndOf="@+id/ratingTV"
+        app:layout_constraintTop_toBottomOf="@+id/gameYearTV" />
+
+    <TextView
+        android:id="@+id/gameYearTV"
+        android:layout_width="32dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:text="@string/year"
+        android:textColor="@color/cardview_light_background"
+        app:layout_constraintStart_toEndOf="@+id/yearTV"
+        app:layout_constraintTop_toBottomOf="@+id/gameNameTV" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

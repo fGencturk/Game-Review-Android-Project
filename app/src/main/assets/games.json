@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Witcher 3",
+    "year": 2015,
+    "rating":92,
+    "image": "https://store-images.s-microsoft.com/image/apps.28990.69531514236615003.8f0d03d6-6311-4c21-a151-834503c2901a.d629260e-2bc4-4588-950c-f278cbc22a64"
+  },
+  {
+    "id": 2,
+    "name": "GTA 5",
+    "year": 2013,
+    "rating":90,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/91T0XQv8gEL._SL1500_.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Forza Motorsport 7",
+    "year": 2017,
+    "rating":87,
+    "image": "https://assets1.ignimgs.com/2017/06/28/forza-7-button-1498690702957.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Cyberpunk 2077",
+    "year": 2020,
+    "rating":97,
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Cyberpunk_2077_box_art.jpg/220px-Cyberpunk_2077_box_art.jpg"
+  }
+]
